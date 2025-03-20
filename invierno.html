@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>invierno</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Didot;
+            background-color: rgb(248, 240, 230);
+            color: #442d05;
+        }
+
+        h2 {
+            font-family: Didot;
+            color: #442d05;
+            font-size: 30px;
+            text-justify: auto;
+            text-decoration: overline;
+            text-shadow: 0 2px 5px rgba(99, 59, 4, 0.7);
+        }
+        h1{
+            font-family: Didot;
+            color: #442d05;
+            font-size: 10px;
+            text-justify: auto;
+            text-decoration: overline;
+            text-shadow: 0 2px 5px rgba(99, 59, 4, 0.7);
+
+        }
+
+        .baner {
+            position: fixed;
+            width: 100%;
+            height: 60px;
+            background: #b3997462;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-shadow: 0 2px 5px rgba(98, 64, 17, 0.7);
+            z-index: 1000;
+        }
+
+        .icons {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            font-family: Didot;
+            color: rgb(57, 35, 11);
+            margin-left: 90%;
+            padding: 8px;
+        }
+
+        .icons img {
+            width: 40px;
+            height: auto;
+            margin-right: 70px;
+        }
+
+        .nombre {
+            font-size: 45px;
+            font-family: Didot;
+            color: rgba(57, 35, 11, 0.738);
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            margin-top: 100px;
+        }
+
+        .contenedor {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .producto {
+            background: white;
+            border: 2px solid #b39974;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .producto img {
+            width: 100%;
+            height: auto;
+        }
+
+        .producto h3 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .producto p {
+            font-size: 18px;
+            padding: 0 10px;
+        }
+
+        .precio {
+            font-size: 20px;
+            color: #b39974;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        button{
+           font-family: Didot;
+           color: rgb(57, 35, 11);
+           background-color: #f9f3e9;
+        }
+    </style>
+</head>
+<body>
+    <div class="baner"> 
+        <div class="icons"> 
+            <a href="Jouliette.html">
+                <img src="casa.png" alt="Casa">
+            </a>
+            <div class="nombre"> Colección de invierno </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2 class="subtitulo">JERSÉIS & CARDIGANS</h2>
+
+    <div class="contenedor">
+        <div class="producto">
+            <img src="prenda19.jpg" alt="Abrigo de otoño">
+            <h3>GASPARD</h3>
+            <p>Suéter de manga larga</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">79.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda20.jpg" alt="Suéter de otoño">
+            <h3>PONIA</h3>
+            <p>Suéter de manga larga</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">49.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda21.jpg" alt="Vestido otoñal">
+            <h3>ELSY</h3>
+            <p>Suéter de manga larga</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">59.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda22.jpg" alt="Botines de otoño">
+            <h3>GASPARD</h3>
+            <p>Chaleco de manga larga</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">89.99€</div>
+        </div>
+            <div class="producto">
+                    <img src="prenda23.jpg" alt="Abrigo de otoño">
+                    <h3>ELSY</h3>
+                    <p>Suéter suelto</p>
+                    <button>AÑADIR A LA CESTA</button>
+                    <div class="precio">79.99€</div>
+            </div>
+    </div>
+    <h2 class="subtitulo">CHAQUETAS & CAPAS</h2>
+
+    <div class="contenedor">
+        <div class="producto">
+            <img src="prenda24.jpg" alt="Abrigo de otoño">
+            <h3>MISLY</h3>
+            <p>Chaqueta corta</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">79.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda10.jpg" alt="Suéter de otoño">
+            <h3>TIMOTEE</h3>
+            <p>Chaqueta holgada</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">49.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda11.jpg" alt="Vestido otoñal">
+            <h3>FALOU</h3>
+            <p>Chaqueta corta</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">59.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda12.jpg" alt="Botines de otoño">
+            <h3>PHILIPPA</h3>
+            <p>Chaqueta recta corta</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">89.99€</div>
+        </div>
+            <div class="producto">
+                    <img src="prenda13.jpg" alt="Abrigo de otoño">
+                    <h3>MILOS</h3>
+                    <p>Chaqueta abotonada</p>
+                    <button>AÑADIR A LA CESTA</button>
+                    <div class="precio">79.99€</div>
+            </div>
+    </div>
+    </div>
+    <h2 class="subtitulo">TOPS & CAMISAS</h2>
+
+    <div class="contenedor">
+        <div class="producto">
+            <img src="prenda14.jpg" alt="Abrigo de otoño">
+            <h3>FOKA</h3>
+            <p>Blusa estampada</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">79.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda15.jpg" alt="Suéter de otoño">
+            <h3>HILDA</h3>
+            <p>Blouse</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">49.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda16.jpg" alt="Vestido otoñal">
+            <h3>FYILLA</h3>
+            <p>Camisa de manga larga</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">59.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda17.jpg" alt="Botines de otoño">
+            <h3>YILLA</h3>
+            <p>Camisa de manga larga</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">89.99€</div>
+        </div>
+            <div class="producto">
+                    <img src="prenda18.jpg" alt="Abrigo de otoño">
+                    <h3>MILOS</h3>
+                    <p>Chaqueta abotonada</p>
+                    <button>AÑADIR A LA CESTA</button>
+                    <div class="precio">79.99€</div>
+            </div>
+    </div>
+    <h2 class="subtitulo">VESTIDOS</h2>
+
+    <div class="contenedor">
+        <div class="producto">
+            <img src="prenda45.jpg" alt="Abrigo de otoño">
+            <h3>FLORIA</h3>
+            <p>Vestido con estampado flora</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">79.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda46.jpg" alt="Suéter de otoño">
+            <h3>FINGSTON</h3>
+            <p>Mini dress</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">49.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda47.jpg" alt="Vestido otoñal">
+            <h3>AMY</h3>
+            <p>Dress</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">59.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda48.jpg" alt="Botines de otoño">
+            <h3>LICONI</h3>
+            <p>Vestido corto de mezclilla</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">89.99€</div>
+        </div>
+            <div class="producto">
+                    <img src="prenda49.jpg" alt="Abrigo de otoño">
+                    <h3>MATSA</h3>
+                    <p>Vestido largo midi</p>
+                    <button>AÑADIR A LA CESTA</button>
+                    <div class="precio">79.99€</div>
+            </div>
+    </div>
+    <h2 class="subtitulo">FALDAS & PANTALONES </h2>
+
+    <div class="contenedor">
+        <div class="producto">
+            <img src="prenda30.jpg" alt="Abrigo de otoño">
+            <h3>VARPER</h3>
+            <p>Falda cruzada</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">79.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda31.jpg" alt="Suéter de otoño">
+            <h3>FONA</h3>
+            <p>Pantalones rectos sueltos</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">49.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda32.jpg" alt="Vestido otoñal">
+            <h3>AMY</h3>
+            <p>Pantalones rectos sueltos</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">59.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda33.jpg" alt="Botines de otoño">
+            <h3>LICONI</h3>
+            <p>Pantalones rectos sueltos</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">89.99€</div>
+        </div>
+            <div class="producto">
+                    <img src="prenda34.jpg" alt="Abrigo de otoño">
+                    <h3>MATSA</h3>
+                    <p>Pantalones rectos sueltos</p>
+                    <button>AÑADIR A LA CESTA</button>
+                    <div class="precio">79.99€</div>
+            </div>
+    </div>
+    <h2 class="subtitulo">ENTERIZOS </h2>
+
+    <div class="contenedor">
+        <div class="producto">
+            <img src="prenda35.jpg" alt="Abrigo de otoño">
+            <h3>VARPER</h3>
+            <p>Mono largo de mezclilla</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">79.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda36.jpg" alt="Suéter de otoño">
+            <h3>FONA</h3>
+            <p>Mono de trabajador</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">49.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda37.jpg" alt="Vestido otoñal">
+            <h3>GOLBA</h3>
+            <p>Mono de manga larga</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">59.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda38.jpg" alt="Botines de otoño">
+            <h3>LICONI</h3>
+            <p>Traje bimaterial</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">89.99€</div>
+        </div>
+            <div class="producto">
+                    <img src="prenda39.jpg" alt="Abrigo de otoño">
+                    <h3>MATSA</h3>
+                    <p>Pantalones de mono</p>
+                    <button>AÑADIR A LA CESTA</button>
+                    <div class="precio">79.99€</div>
+            </div>
+    </div>
+    <h2 class="subtitulo">T-SHIRTS </h2>
+
+    <div class="contenedor">
+        <div class="producto">
+            <img src="prenda40.jpg" alt="Abrigo de otoño">
+            <h3>SANGO</h3>
+            <p>camiseta de rallas</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">79.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda41.jpg" alt="Suéter de otoño">
+            <h3>FONA</h3>
+            <p>camiseta de manga larga</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">49.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda42.jpg" alt="Vestido otoñal">
+            <h3>GOLBA</h3>
+            <p>camiseta de manga larga</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">59.99€</div>
+        </div>
+
+        <div class="producto">
+            <img src="prenda43.jpg" alt="Botines de otoño">
+            <h3>LICONI</h3>
+            <p>camiseta manga larga</p>
+            <button>AÑADIR A LA CESTA</button>
+            <div class="precio">89.99€</div>
+        </div>
+            <div class="producto">
+                    <img src="prenda44.jpg" alt="Abrigo de otoño">
+                    <h3>MATSA</h3>
+                    <p> camiseta manga larga</p>
+                    <button>AÑADIR A LA CESTA</button>
+                    <div class="precio">79.99€</div>
+            </div>
+    </div>
+</body>
+</html>
